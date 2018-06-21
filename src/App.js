@@ -4,14 +4,14 @@ import Locale from "./locale";
 import Main from "./components/routing";
 
 class App extends Component {
-	render() {
-		Locale.setIntl(this.props.intl);
-		return (
-			<div className="App">
-				<Main />
-			</div>
-		);
-	}
+  render() {
+    Locale.setIntl(this.props.intl);
+    return (
+      <div className="App">
+        <Main />
+      </div>
+    );
+  }
 }
 
 export default injectIntl(App);

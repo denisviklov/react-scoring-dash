@@ -5,12 +5,12 @@ GraphQL Queries used along side of project
 */
 
 const Query = {
-	CURRENT_USER: gql`
-		{
-			user {
-				id
-				username
-			}
-		}
-	`
+  CURRENT_USER: gql`
+    {
+      user {
+        id
+        username
+      }
+    }
+  `
 };

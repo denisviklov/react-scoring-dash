@@ -3,10 +3,10 @@ import appLocaleData from "react-intl/locale-data/en";
 import enMessages from "./locales/en.json";
 
 window.appLocale = {
-	messages: {
-		...enMessages
-	},
-	antd: antdEn,
-	locale: "en-US",
-	data: appLocaleData
+  messages: {
+    ...enMessages
+  },
+  antd: antdEn,
+  locale: "en-US",
+  data: appLocaleData
 };
