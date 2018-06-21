@@ -1,0 +1,52 @@
+.list {
+  flex: auto;
+}
+.list.portlet {
+  display: flex;
+  flex-direction: column;
+}
+.list.portlet .portlet-body {
+  flex: auto;
+}
+
+.list ul {
+  max-height: 34vh;
+  overflow: auto;
+}
+
+.list .selected {
+  background-color: #f5f5f5;
+}
+
+.list .list-item {
+  cursor: pointer;
+  padding: 6px 0 6px 10px;
+  border-bottom: 1px dotted #ddd;
+  line-height: 22px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.list .list-item .item-title {
+}
+.list .list-item.edit-mode {
+  padding: 6px 0 6px 2px;
+}
+.list .list-item.add {
+  padding: 6px 0 6px 2px;
+  text-align: right;
+  font-style: italic;
+  border-bottom: 0;
+}
+.list .list-item.add .add-btn {
+  width: 100%;
+}
+.list .list-item.add .add-btn,
+.list .list-item.add .add-btn i {
+  font-style: italic;
+}
+.list .list-item .ant-input-group-addon {
+  padding: 0;
+  border: 0;
+  background: none;
+}

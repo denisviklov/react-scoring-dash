@@ -1,0 +1,80 @@
+.auth-layout {
+  height: 100%;
+}
+
+.logo-header {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.logo-header img {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.login-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.slogan {
+  font-size: 14px;
+  color: #8b8c8e;
+}
+.login-form {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 480px;
+  min-width: 368px;
+}
+.login-form form {
+  text-align: left;
+  min-width: 368px;
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 368px;
+}
+.login-form form a {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.login-form {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 480px;
+  min-width: 368px;
+}
+.login-form form {
+  text-align: left;
+  min-width: 368px;
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 368px;
+}
+.login-form form a {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /** sm **/
+  .login-form {
+    padding-top: 20px;
+  }
+}
+
+.footer-menu {
+  padding: 5px 0;
+}
+.footer-menu a {
+  margin: 0 5px;
+  color: rgba(0, 0, 0, 0.65);
+}

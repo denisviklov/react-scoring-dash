@@ -1,0 +1,42 @@
+#root,
+.App,
+.main-wrapper {
+  height: 100%;
+}
+.loading {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 480px) {
+  /* xs */
+}
+@media only screen and (min-width: 768px) {
+  /** sm **/
+}
+@media only screen and (min-width: 992px) {
+  /** md **/
+}
+@media only screen and (min-width: 1200px) {
+  /** lg main media screen **/
+}
+@media only screen and (min-width: 1600px) {
+  /* xl */
+}
+
+@media only screen and (max-width: 479px) {
+  /* xs */
+}
+@media only screen and (max-width: 767px) {
+  /** sm **/
+}
+@media only screen and (max-width: 991px) {
+  /** md **/
+}
+@media only screen and (max-width: 1199px) {
+  /** lg main media screen **/
+}
+@media only screen and (max-width: 1599px) {
+  /* xl */
+}

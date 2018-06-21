@@ -1,0 +1,205 @@
+.portlet {
+  position: relative;
+  padding: 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  min-width: 200px;
+}
+.portlet-header {
+  padding: 0;
+  margin: 0;
+}
+.portlet-tools {
+  float: right;
+}
+.portlet-title u {
+  text-decoration: none;
+}
+.portlet-icon {
+  position: relative;
+  top: -1px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.portlet-body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+.portlet-body:before,
+.portlet-body:after {
+  content: " ";
+  display: table;
+}
+.portlet-body:after {
+  clear: both;
+}
+.portlet-default .portlet-title {
+  position: relative;
+  margin-bottom: 30px;
+}
+.portlet-default .portlet-title:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  z-index: 9;
+  background: #e6e6e6;
+}
+.portlet-default .portlet-title:after {
+  content: "";
+  display: block;
+  position: relative;
+  z-index: 10;
+  width: 80px;
+  height: 1px;
+  margin: 20px 0 0;
+  background: #6685a4;
+}
+.portlet-boxed .portlet-header {
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.portlet-boxed .portlet-title {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.portlet-boxed .portlet-title u {
+  text-decoration: none;
+}
+.portlet-boxed .portlet-title:after {
+  content: "";
+  display: block;
+  position: relative;
+  bottom: -22px;
+  z-index: 100;
+  width: auto;
+  height: 1px;
+  padding: 0 0 0 0;
+  margin: 0 -35px 0 0;
+  background: #6685a4;
+}
+.portlet-boxed .portlet-body {
+  padding: 20px 20px 20px;
+  border: 1px solid #ddd;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.portlet-boxed .portlet-header + .portlet-body {
+  border-top: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.portlet-table .portlet-body {
+  padding: 0;
+}
+.portlet-table .table-bordered {
+  margin-top: -2px !important;
+  margin-bottom: -2px !important;
+  border-right: none;
+  border-left: none;
+}
+.portlet-table .table-bordered > thead > tr > th:first-child,
+.portlet-table .table-bordered > tbody > tr > td:first-child,
+.portlet-table .table-bordered > tfoot > tr > th:first-child {
+  padding-left: 20px;
+}
+.portlet-table .table-bordered > thead > tr > th:last-child,
+.portlet-table .table-bordered > tbody > tr > td:last-child,
+.portlet-table .table-bordered > tfoot > tr > th:last-child {
+  padding-right: 20px;
+}
+.portlet-table .dataTables_filter,
+.portlet-table .dataTables_paginate {
+  float: right;
+  padding-right: 20px;
+}
+.portlet-table .dataTables_info,
+.portlet-table .dataTables_length {
+  float: left;
+  padding-left: 20px;
+}
+.portlet-table .dataTables_filter,
+.portlet-table .dataTables_length {
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+.portlet-table .dataTables_paginate,
+.portlet-table .dataTables_info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.portlet-table .dataTables_info {
+  padding-top: 20px;
+}
+.portlet-body .layout {
+  margin-top: -30px;
+}
+.portlet-boxed .portlet-header {
+  background-color: #ffffff;
+}
+.portlet-boxed .portlet-title {
+  color: #435f76;
+}
+.portlet-boxed.portlet-inverse .portlet-header {
+  background-color: #354b5e;
+}
+.portlet-boxed.portlet-inverse .portlet-title {
+  color: #ffffff;
+}
+.portlet-boxed.portlet-danger .portlet-header {
+  background-color: #db5b57;
+}
+.portlet-boxed.portlet-danger .portlet-title {
+  color: #ffffff;
+}
+.portlet-boxed.portlet-warning .portlet-header {
+  background-color: #f1b157;
+}
+.portlet-boxed.portlet-warning .portlet-title {
+  color: #ffffff;
+}
+.portlet-boxed.portlet-success .portlet-header {
+  background-color: #5cb85c;
+}
+.portlet-boxed.portlet-success .portlet-title {
+  color: #ffffff;
+}
+.portlet-boxed.portlet-info .portlet-header {
+  background-color: #5bc0de;
+}
+.portlet-boxed.portlet-info .portlet-title {
+  color: #ffffff;
+}
+.portlet-boxed.portlet-primary .portlet-header {
+  background-color: #d74b4b;
+}
+.portlet-boxed.portlet-primary .portlet-title {
+  color: #ffffff;
+}
+.portlet-boxed.portlet-secondary .portlet-header {
+  background-color: #6685a4;
+}
+.portlet-boxed.portlet-secondary .portlet-title {
+  color: #ffffff;
+}
+.portlet-boxed.portlet-tertiary .portlet-header {
+  background-color: #bcbcbc;
+}
+.portlet-boxed.portlet-tertiary .portlet-title {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .portlet {
+    min-width: 400px;
+  }
+}

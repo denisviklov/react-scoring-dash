@@ -1,0 +1,75 @@
+.billing-form {
+}
+
+.billing-form .ant-radio-wrapper {
+  padding: 10px 0;
+}
+
+.billing-form .wrapped-label {
+  max-width: 600px;
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.5em;
+}
+
+.billing-plan .portlet-body {
+  height: 340px;
+  text-align: center;
+  padding-top: 20px !important;
+}
+.billing-plan .plan-perfect-for {
+  color: #666666;
+  line-height: 1.1em;
+}
+.billing-plan .plan-size {
+  margin-top: 30px;
+  color: #666666;
+}
+.billing-plan .plan-size .val {
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
+.billing-plan .plan-price {
+  margin-top: 15px;
+  color: #666666;
+}
+.billing-plan .plan-price .val {
+  font-size: 32px;
+  color: #46a546;
+  font-weight: 400;
+}
+
+.billing-plan .choose-btn {
+  margin: 15px 0;
+}
+.billing-plan .current-btn {
+  display: inline-block;
+  margin: 15px 0;
+  color: #46a546 !important;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.billing-plan .plan-features {
+  margin: 15px 0;
+}
+
+.billing-plan.most-popular {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 20px;
+  -mox-box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 20px;
+  margin-bottom: 5px;
+  z-index: 2;
+}
+.billing-plan.most-popular .portlet-header {
+  padding-top: 15px;
+}
+
+.billing-plan.most-popular .plan-most-popular {
+  font-size: 9px;
+  font-weight: 600;
+  color: #d74b4b;
+  text-align: center;
+}

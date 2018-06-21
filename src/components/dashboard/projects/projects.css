@@ -1,0 +1,31 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.projects .ant-form-item {
+  margin-bottom: 5px;
+}
+
+.projects .lists-row {
+  flex: auto;
+  display: flex;
+}
+
+.projects .list-col {
+  display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+  /** sm **/
+  .projects .lists-row {
+    flex-direction: column;
+  }
+  .projects .list-col {
+    width: auto;
+  }
+  .projects .list-col:first-child {
+    margin-bottom: 16px;
+  }
+}
